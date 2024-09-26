@@ -3,11 +3,11 @@
 // There two data types 1. Primitive 2. Complex
 // Primitive data types are the types of data that can only hold one value at a time
 // While complex data types are types of data types that can hold more than one data values
-// Types of primitive datat types whic include strings, number, boolean, null, undefined
+// Types of primitive datat types which include strings, number, boolean, null, undefined
 // Types of complex include object, arrays
 
 // Examples of strings are '' "", number are 123456, boolean
-// String- they are text characters, they are always in quotation marks either single ' or double ""
+// String- they are  characters always in quotation marks either single ' or double ""
 const firstName = 'John';
 const lastName = 'Doe';
 console.log(firstName);
@@ -69,6 +69,7 @@ console.log(surname.slice(1, 4));
 console.log(surname.substring(1, 7));
 console.log(surname.substr(0, 5));
 
+// template literals allows us to format var into strings
 const author = 'Ngozi Adiche';
 const bookTitle = 'Americanah';
 const yearPublished = '2016';
@@ -104,7 +105,7 @@ console.log(quote);
 
 
 
-// template literals allows us to frmat var into strings
+
 
 
 

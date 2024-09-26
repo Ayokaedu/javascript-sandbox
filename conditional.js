@@ -1,4 +1,4 @@
-// Conditional Statement
+// Conditional Statement is used to perform an action based on condition
 // control flow
 
 const myBalance = 3000;

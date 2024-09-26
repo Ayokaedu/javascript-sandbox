@@ -37,3 +37,4 @@ do {
   console.log('I am in the loop');
   x++;
 } while (x <= 2);
+// Continue skips a value and keeps it going and Break gets to a point where the action stops

@@ -74,4 +74,63 @@ if (marksBmi > johnsBmi) {
     
 console.log('hello'/6);
 
-    
+    let Dolphins = 96;
+    let Dolphins2 = 108;
+    let Dolphins3 = 89;
+    // let average = 285;
+
+    let totalDolphinScore = (Dolphins + Dolphins2 + Dolphins3) / 3;
+
+    let Pandas = 88;
+    let Pandas1 = 91;
+    let Pandas2 = 110;
+    // let average2 = 289;
+
+    let totalPandaScore = (Pandas + Pandas1 + Pandas2) / 3;
+
+    let avgDolphin = totalDolphinScore;
+    let avgPanda = totalPandaScore;
+
+    console.log(`Average Dolphin score is ${avgDolphin}`);
+
+    console.log(`Average Panda score is ${avgPanda}`);
+
+    // if (avgDolphin >= avgPanda) {
+    //     console.log('Dolphin Wins');
+    // } else {
+
+    // }
+
+    if (avgDolphin > avgPanda) {
+      console.log("Dolphinns Wins");
+    } else if (avgDolphin < avgPanda) {
+      console.log("Panda Wins");
+    } else {
+      console.log("This is a tie");
+    }
+
+    if (avgDolphin > avgPanda && avgDolphin >= 100) {
+      console.log("Dolphin wins");
+    } else if (avgPanda < avgDolphin && avgPanda >= 100) {
+      console.log("Panda wins");
+    } else {
+      console.log("No team wins");
+    }
+
+    if (avgDolphin > avgPanda && avgDolphin >= 100) {
+      console.log("Dolphin wins");
+    } else if (avgPanda < avgDolphin && avgPanda >= 100) {
+      console.log("Panda wins");
+    } else if (
+      avgDolphin === avgPanda &&
+      avgDolphin >= 100 &&
+      avgPanda >= 100
+    ) {
+      console.log("This is a draw");
+    } else {
+      console.log("No team wins");
+    }
+
+
+
+
