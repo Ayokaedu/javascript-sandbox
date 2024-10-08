@@ -21,7 +21,7 @@ const fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(fullName.length);
 
-// String Methods- functions that can be perfirned on strings
+// String Methods- functions that can be performed on strings
 //toupperCase, toLowerCase
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
